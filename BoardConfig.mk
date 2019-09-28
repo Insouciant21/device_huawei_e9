@@ -67,7 +67,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := false
 TARGET_USERIMAGES_USE_F2FS := true
-TARGET_RECOVERY_FSTAB := device/huawei/hwe9/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/huawei/hwe9/rootdir/etc/recovery.fstab
 
 # TWRP specific build flags
 RECOVERY_VARIANT := twrp
@@ -76,8 +76,6 @@ RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TW_BRIGHTNESS_PATH := "/sys/devices/soc/1a00000.qcom,mdss_mdp/1a00000.qcom,mdss_mdp:qcom,mdss_fb_primary/leds/lcd-backlight/brightness"
-TW_MAX_BRIGHTNESS := 255
-TW_DEFAULT_BRIGHTNESS := 162
 TW_NO_REBOOT_BOOTLOADER := false
 TW_HAS_DOWNLOAD_MODE := false
 TW_INCLUDE_NTFS_3G := true
