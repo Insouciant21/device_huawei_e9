@@ -90,6 +90,7 @@ TW_INCLUDE_CRYPTO := true
 TW_MTP_DEVICE := /dev/mtp_usb
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_EXCLUDE_DEFAULT_USB_INIT := true
+TW_USE_TOOLBOX := true
 
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun/file"
 
