@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/huawei/msm8953_64
+LOCAL_PATH := device/huawei/hwe9
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_hwe9.mk

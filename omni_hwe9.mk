@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_DEVICE := msm8953_64
-PRODUCT_NAME := omni_msm8953_64
+PRODUCT_DEVICE := hwe9
+PRODUCT_NAME := omni_hwe9
 PRODUCT_MODEL := DUB-AL00
 PRODUCT_BRAND := HUAWEI
 PRODUCT_MANUFACTURER := HUAWEI
